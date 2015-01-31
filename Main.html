@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Calculating Moles</title>
+        <script type="text/javascript" src="moles.js"></script>
+    </head>
+    
+    <body>
+        <h1>
+        Mole Calculator
+        </h1>
+        
+        <p>
+        Enter the names of the two elements you would like the calculator to evaluate.<br>
+        Remember to capitalize the first letter of the name of your element/s.
+        <!--Could be changed afterwards using JavaScript to make everything lowercase, but I am just using this for simplicity right now-->
+        </p>
+        
+        <p>
+        Element 1: <input type="text" id="first_Element">
+        (optional) Element 2: <input type="text" id="second_Element">
+        
+        <input value="Calculate" type="button" onclick="calculate()">
+        </p>
+        
+        <div id="error"></div>
+            
+        <p>
+        Chemical Symbol: <div id="symbol"></div><div id="subnum"></div>
+        Number of Moles: <div id="moles"></div> grams
+    
+        <img src="http://i.lagardere.cz/evropa2/img/edee/funny-mole.jpg" alt="Mole Picture">
+    
+    </body>
+</html>
